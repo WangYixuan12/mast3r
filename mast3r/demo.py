@@ -26,7 +26,6 @@ try:
 except Exception as e:
     has_retrieval = False
 
-import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.utils.image import load_images
 from dust3r.utils.device import to_numpy
 from dust3r.viz import add_scene_cam, CAM_COLORS, OPENGL, pts3d_to_trimesh, cat_meshes

@@ -19,7 +19,6 @@ from typing import List, Tuple, Union
 from mast3r.model import AsymmetricMASt3R
 from mast3r.colmap.database import export_matches, get_im_matches
 
-import mast3r.utils.path_to_dust3r  # noqa
 from dust3r_visloc.datasets.utils import get_resize_function
 
 import kapture

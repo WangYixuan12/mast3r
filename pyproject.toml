@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mast3r"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "dust3r @ git+https://github.com/naver/dust3r.git@bb9f9f54826b4077ed9fd075308eb2fe2d4666f9",
+    "croco @ git+https://github.com/naver/croco.git@87244aa971caa4bae57ba7f9cb885761d323da93",
+    "scikit-learn",
+]
+
+[tool.setuptools.packages.find]
+include = ["mast3r", "mast3r.*"]

@@ -9,7 +9,6 @@ import os
 import torch
 import tempfile
 
-import mast3r.utils.path_to_dust3r  # noqa
 from dust3r.model import AsymmetricCroCo3DStereo
 from mast3r.model import AsymmetricMASt3R
 from mast3r.model import load_dune_mast3r_model
